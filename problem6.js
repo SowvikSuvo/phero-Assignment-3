@@ -1,13 +1,15 @@
 /** Problem 06 :  (Current Salary )  */
-var experience = 3;
-var startingSalary = 15000;
+var experience = 30;
+var startingSalary = 45000;
 //write your code here
+
+var CurrentSalary = startingSalary;
 
 for (var year = 1; year <= experience; year++) {
   // 5% Salary increase
-  var IncreaseSalary = startingSalary * 0.05;
-  startingSalary = startingSalary + IncreaseSalary;
+  var IncreaseSalary = CurrentSalary * 0.05;
+  CurrentSalary = CurrentSalary + IncreaseSalary;
 }
-startingSalary = startingSalary.toFixed(2);
+CurrentSalary = CurrentSalary.toFixed(2);
 
-console.log(startingSalary);
+console.log(CurrentSalary);
