@@ -6,7 +6,7 @@ var divideAsset = area / 2;
 
 console.log(divideAsset);
 
-//*-------------------------------------------------------*//
+//------------------------//
 
 /** Problem -02 ( Cycle or Laptop ) */
 var money = 10000;
@@ -20,7 +20,7 @@ if (money >= 25000) {
   console.log("Chocolate");
 }
 
-//*-------------------------------------------------------*//
+//------------------------//
 
 /** Problem -03 ( Medicine Planner ) */
 var lastDay = 11;
@@ -34,7 +34,7 @@ for (var day = 1; day <= lastDay; day++) {
   }
 }
 
-//*-------------------------------------------------------*//
+//------------------------//
 
 /** Problem 04 - (Delete / Store) */
 var fileName = "pdfData.jpg";
@@ -50,7 +50,7 @@ if (fileName[0] === "#") {
   console.log("Delete");
 }
 
-//*-------------------------------------------------------*//
+//------------------------//
 
 /** Problem 05 - ( PH Email Generator )  */
 var student = { name: "jhanku", roll: 1014, department: "cse" };
@@ -61,7 +61,7 @@ var PhEmail =
 
 console.log(PhEmail);
 
-//*-------------------------------------------------------*//
+//------------------------//
 
 /** Problem 06 :  (Current Salary )  */
 var experience = 30;
